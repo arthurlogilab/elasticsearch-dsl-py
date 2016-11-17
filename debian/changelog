@@ -1,0 +1,5 @@
+elasticsearch-dsl (2.2.0-1) unstable; urgency=low
+
+  * source package automatically created by stdeb 0.8.5 & dh_virtualenv
+
+ -- Arthur Lutz <arthur.lutz@logilab.fr>  Thu, 10 Nov 2016 16:31:17 +0100

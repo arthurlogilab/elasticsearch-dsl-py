@@ -1,0 +1,36 @@
+Source: elasticsearch-dsl
+Maintainer: Arthur Lutz <arthur.lutz@logilab.fr>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+
+
+Package: python-elasticsearch-dsl
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Python client for Elasticsearch
+ Elasticsearch DSL
+ =================
+ .
+ Elasticsearch DSL is a high-level library whose aim is to help with writing and
+ running queries against Elasticsearch. It is built on top of the official
+ low-level client (`elasticsearch-py <https://github.com/elastic/elasticsearch-py>`_).
+ .
+ It provides a more convenient and idiomatic way to write and manipulate
+ queries. It stays close to the Elasticsearch JSON DSL, mirroring its
+ terminology and structure. It exposes the whole range of the DSL from Python
+ either directly using defined classes or a queryset-like expressions.
+ .
+ It also provides an optional wrapper for working with documents as Python
+ objects: defining mappings, retrieving and saving documents, wrapping the
+ document data in user-defined classes.
+ .
+ To use the other Elasticsearch APIs (eg. cluster health) just use the
+ underlying client.
+ .
+ Compatibility
+
+
+
